@@ -6,7 +6,8 @@ using TailSpin.SpaceGame.Web.Models;
 
 namespace TailSpin.SpaceGame.Web
 {
-    public interface IDocumentDBRepository<T> where T : Model
+    public interface 
+        IDocumentDBRepository<T> where T : Model
     {
         /// <summary>
         /// Retrieves the item from the store with the given identifier.
